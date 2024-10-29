@@ -1,0 +1,25 @@
+.m-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 400px;
+    background-color: #F5F5F5;
+    border-radius: 7px;
+}
+.quote{
+    font-size: 24px;
+    padding: 20px;
+    box-shadow: inset 0px 0px 5px  rgba(0,0,0,0.1);
+    color: #1e63b3;
+    text-shadow: darkred;
+}
+.quote-author{
+    
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+
+
+}

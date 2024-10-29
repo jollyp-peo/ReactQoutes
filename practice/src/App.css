@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+  background-color: #0B2434;
+  padding: 20px;
+}
+h3{
+    padding: 10px;
+    font-size: 28px;
+    color: navy;
+    box-shadow: inset 0px 0px 5px  rgba(0,0,0,0.2);
+}
+.btn{
+    background-color: #4CAF50;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    text-shadow: #97020a;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #cac2c2;
+    background-color: navy;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
